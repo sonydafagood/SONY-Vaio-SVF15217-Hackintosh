@@ -17,7 +17,7 @@ efi不包含wifi和蓝牙驱动！！！
 使用方法for Big Sur:删除config.plist，将config.plist.bak的.bak后缀删除然后重新注入自己的三码直接安装。
 
 
-使用方法for Catalina:在上面Big Sur的基础上将config里UEFI--APFS  mindate   minversion这两项设置成-1，否则安装完成后引导界面读不到apfs的macOS系统盘。
+使用方法for Catalina:在上面Big Sur的基础上将config里UEFI--APFS里minversion的值设置成 -1 否则安装完成后引导界面读不到apfs的macOS系统盘。
 
 
 文件在master里面！！
